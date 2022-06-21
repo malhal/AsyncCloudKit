@@ -24,7 +24,7 @@ extension AsyncSequence {
       first = element
     }
 
-    precondition(first != nil, "The sequence yielded no elements.")
+    //precondition(first != nil, "The sequence yielded no elements.")
     return first!
   }
 }
